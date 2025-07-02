@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Typewriter } from 'react-simple-typewriter';
 import { FaWhatsapp, FaLinkedin, FaGithub, FaReact, FaHtml5, FaJs, FaCss3Alt, FaExternalLinkAlt, FaWordpress  } from 'react-icons/fa';
 import { SiNextdotjs, SiTailwindcss, SiBootstrap, SiElementor } from "react-icons/si";
@@ -415,8 +416,8 @@ function Home() {
     </div>
   </div>
 </section>
-
-
+{/* Footer */}
+<Footer />
     </>
   )
 }
