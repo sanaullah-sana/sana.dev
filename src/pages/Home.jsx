@@ -80,7 +80,8 @@ const projects = [
 const cardVariants = {
   hidden: (i) => ({
     opacity: 0,
-    x: i % 2 === 0 ? -100 : 100, // Alternate left/right fade
+    x: i % 2 === 0 ? "-3rem" : "3rem"
+ // Alternate left/right fade
   }),
   visible: (i) => ({
     opacity: 1,
@@ -105,7 +106,7 @@ const highlightVariant = {
 };
 function Home() {
   return (
-    <>
+    <div className='overflow-x-hidden'>
     {/* Header */}
    <Header />
    {/* Intro Section */}
@@ -418,7 +419,7 @@ function Home() {
 </section>
 {/* Footer */}
 <Footer />
-    </>
+    </div>
   )
 }
 
