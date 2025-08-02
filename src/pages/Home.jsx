@@ -57,7 +57,7 @@ const projects = [
   {
     title: "Furniro (E-Commerce Website)",
     description:
-      "This is a Basic E-Commerce Website. (Fetching Products) Still Under Construction.",
+      "This is a static E-Commerce Website made with Vite + Tailwind CSS, I have Used Redux toolkit and Axios Fetching in it.",
     image: furniroImg,
     tech: ["React", "JavaScript", "Tailwind CSS"],
     github: "https://github.com/sanaullah-sana/Furniro-Vite.git",
