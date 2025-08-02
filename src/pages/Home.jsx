@@ -505,7 +505,7 @@ function Home() {
       </section>
       {/* Footer */}
       <Footer myStyle={myStyle} />
-      <ScrollToTopButton />
+      <ScrollToTopButton  />
     </div>
   );
 }
